@@ -1,2 +1,1 @@
-# trying_undetected-chromedriver_gh_actions
-Checking whether undetected-chromedriver works in GitHub Actions
+[`undetected_chromedriver`](https://github.com/ultrafunkamsterdam/undetected-chromedriver) warns that "THIS PACKAGE DOES NOT, and i repeat DOES NOT hide your IP address, so when running from a datacenter (even smaller ones), chances are large you will not pass! Also, if your ip reputation at home is low, you won't pass!" That's why I'm trying.
