@@ -1,11 +1,15 @@
 import undetected_chromedriver as uc
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import logging
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-driver = uc.Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Run in headless mode
+
+driver = uc.Chrome(options=chrome_options)
 
 driver.get("https://www.higheredjobs.com/faculty/search.cfm?JobCat=62")
 
