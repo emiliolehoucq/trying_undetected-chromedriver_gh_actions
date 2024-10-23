@@ -1,2 +1,2 @@
 undetected-chromedriver
-selenium==4.31.1
+selenium
